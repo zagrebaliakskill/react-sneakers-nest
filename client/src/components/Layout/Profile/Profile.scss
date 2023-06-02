@@ -1,0 +1,29 @@
+.profile {
+    margin-top: 50px;
+}
+
+.profile__inner {
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    display: flex;
+    min-height: 500px;
+}
+
+.profile__navbar-list {
+    border-right: 1px solid #EAEAEA;
+    padding: 20px 10px;
+}
+
+.profile__navbar-list-item:not(:first-child) {
+    margin-top: 10px;
+}
+
+.profile__navbar-list-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.profile__content {
+    padding: 20px;
+}
