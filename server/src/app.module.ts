@@ -8,7 +8,9 @@ import { StoreModule } from './store/store.module';
 import { UserModule } from './user/user.module';
 
 @Module({
-  imports: [AuthModule, ConfigModule.forRoot(), StoreModule, UserModule],
+  imports: [
+    AuthModule, ConfigModule.forRoot(), StoreModule, UserModule,
+  ],
   controllers: [AppController],
   providers: [AppService, PrismaService],
 })
